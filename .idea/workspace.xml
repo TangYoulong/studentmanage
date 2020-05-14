@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3de0a9b-d8ea-4863-8a0e-197c72cc57c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_4_26_10_31_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_4_26_10_31__Default_Changelist_1.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/middleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/student/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/studentmanage/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanage/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentmanage/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/studentmanage/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,10 +81,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\‘；\PycharmProjects\studentmanager\student" />
       <recent name="D:\PycharmProjects\studentmanage\student" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.settings">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="studentmanage" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,6 +100,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="middleware" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="studentmanage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\‘；\PycharmProjects\studentmanager\student\middleware.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="studentmanage" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/studentmanage" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/studentmanage/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -178,6 +222,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.middleware" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.urls" />
         <item itemvalue="Python.views" />
@@ -198,7 +244,8 @@
       <workItem from="1587655722723" duration="364000" />
       <workItem from="1587812220768" duration="5347000" />
       <workItem from="1587883323267" duration="7410000" />
-      <workItem from="1588735970130" duration="2387000" />
+      <workItem from="1588735970130" duration="3314000" />
+      <workItem from="1589334461787" duration="13875000" />
     </task>
     <task id="LOCAL-00001" summary="在公司提交-将venv虚拟环境取消添加到提交文件">
       <created>1587871299850</created>
@@ -207,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587871299850</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="使用class-based view">
+      <created>1588754453305</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588754453305</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,17 +281,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="在公司提交-将venv虚拟环境取消添加到提交文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="在公司提交-将venv虚拟环境取消添加到提交文件" />
+    <MESSAGE value="使用class-based view" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用class-based view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="202" width="542" height="406" key="#Notifications" timestamp="1587871133113">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="524" y="202" width="542" height="406" key="#Notifications/0.0.1280.680@0.0.1280.680" timestamp="1587871133113" />
-    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1587871254467">
+    <state x="231" y="0" key="CommitChangelistDialog2" timestamp="1588754446579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587871254467" />
+    <state x="231" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1588754446579" />
     <state x="420" y="95" key="FileChooserDialogImpl" timestamp="1587868688447">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -246,35 +301,41 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="469" y="207" key="Github.CreatePullRequestDialog/0.0.1280.680@0.0.1280.680" timestamp="1587871125381" />
-    <state width="1222" height="160" key="GridCell.Tab.0.bottom" timestamp="1588754224169">
+    <state width="1222" height="160" key="GridCell.Tab.0.bottom" timestamp="1589437707394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1588754224169" />
-    <state width="1222" height="160" key="GridCell.Tab.0.center" timestamp="1588754224169">
+    <state width="1222" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589437707394" />
+    <state width="1222" height="160" key="GridCell.Tab.0.center" timestamp="1589437707393">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1588754224169" />
-    <state width="1222" height="160" key="GridCell.Tab.0.left" timestamp="1588754224169">
+    <state width="1222" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589437707393" />
+    <state width="1222" height="160" key="GridCell.Tab.0.left" timestamp="1589437707393">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1588754224169" />
-    <state width="1222" height="160" key="GridCell.Tab.0.right" timestamp="1588754224169">
+    <state width="1222" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589437707393" />
+    <state width="1222" height="160" key="GridCell.Tab.0.right" timestamp="1589437707394">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1588754224169" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1587869392873">
+    <state width="1222" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589437707394" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1589438819764">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587869392873" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1587872232446">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589438819764" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1588754593892">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587872232446" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1588754593892" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1589439015823">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1589439015823" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/studentmanager$views.coverage" NAME="views Coverage Results" MODIFIED="1588056782960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student" />
-    <SUITE FILE_PATH="coverage/studentmanager$manage.coverage" NAME="manage Coverage Results" MODIFIED="1588754224137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/studentmanager$manage.coverage" NAME="manage Coverage Results" MODIFIED="1589426533818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/studentmanager$urls.coverage" NAME="urls Coverage Results" MODIFIED="1588058277753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/studentmanage" />
+    <SUITE FILE_PATH="coverage/studentmanager$settings.coverage" NAME="settings Coverage Results" MODIFIED="1589436817983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/studentmanage" />
+    <SUITE FILE_PATH="coverage/studentmanager$middlerware.coverage" NAME="middlerware Coverage Results" MODIFIED="1589436466095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student" />
   </component>
   <component name="masterDetails">
     <states>
